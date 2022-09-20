@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KRCE ALUMNI</title>
+
+
+
+<center><img  src="D:\WEB_PAGE\Images\logo.png" style="width:50%"></center>
+
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+
+<center>
+    
+<a href="https://www.krce.ac.in/" target="_blank" class="w3-button w3-bar-item">Home</a>
+ 
+  
+<a href="https://www.krce.ac.in/vision-mission.php" target="_blank" class="w3-button w3-bar-item">About</a>
+  
+<a href="https://www.krce.ac.in/rnd.php" target="_blank" class="w3-button w3-bar-item">Research</a>
+
+<a href="https://www.krce.ac.in/photo-gallery.php?yid=15&eid=5" target="_blank" class="w3-button w3-bar-item">Gallary</a>
+
+<a href="https://www.krce.ac.in/iqac.php" target="_blank" class="w3-button w3-bar-item">IQAC</a>
+
+<a href="https://www.krce.ac.in/nirf.php" target="_blank" class="w3-button w3-bar-item">NIRF</a>
+
+<a href="https://www.krce.ac.in/contact-us.php" target="_blank" class="w3-button w3-bar-item">Contact</a>
+
+<a href="https://www.krce.ac.in/alumni.php" target="_blank" class="w3-button w3-bar-item">Alumni Corner</a>
+
+<a href="https://www.krce.ac.in/comm-services.php" target="_blank" class="w3-button w3-bar-item">Community Services</a>
+
+<a href="https://www.krce.ac.in/cfl.php" target="_blank" class="w3-button w3-bar-item">Campus</a>
+
+<a href="https://www.krce.ac.in/hostel.php" target="_blank" class="w3-button w3-bar-item">Hostel</a>
+
+<a href="https://www.krce.ac.in/transport.php" target="_blank" class="w3-button w3-bar-item">Transport</a>
+
+
+
+
+</center>
+
+
+
+
+</nav>
+
+<!-- Slide Show -->
+<section>
+  
+
+  <center> <img class="mySlides" src="D:\WEB_PAGE\Images\clg1.jpg"style="width:40%"> </center>
+
+  <center> <img class="mySlides" src="D:\WEB_PAGE\Images\clg2.jpg"style="width:40%"> </center>
+
+  <center> <img class="mySlides" src="D:\WEB_PAGE\Images\clg3.jpg"style="width:40%"> </center>
+
+  <center> <img class="mySlides" src="D:\WEB_PAGE\Images\clg4.jpg"style="width:40%"> </center>
+
+  <center> <img class="mySlides" src="D:\WEB_PAGE\Images\clg5.jpg"style="width:40%"> </center>
+
+  <center> <img class="mySlides" src="D:\WEB_PAGE\Images\clg6.jpeg"style="width:40%"> </center>
+
+  <center> <img class="mySlides" src="D:\WEB_PAGE\Images\clg7.jpg"style="width:40%"> </center>
+
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">K.RAMAKRISHNAN COLLEGE OF ENGINEERING</h2>
+  
+  
+   <img  src="D:\WEB_PAGE\Images\nirf.png"  style="width:50%"> 
+  
+  <p class="w3-justify">Established in the year 2008 K. Ramakrishnan college of Engineering is a leading Engineering college affiliated to Anna University, Chennai, providing valuable courses. K.RAMAKRISHNAN COLLEGE OF ENGINEERING, TIRUCHIRAPALLI, is located in the famous temple town of Shri Samayapuram Mariyamman temple, on the sprawling campus of 30 acres with a panoramic and pleasant view. </p>
+</section>
+
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+
+
+  <article class="w3-third">
+    <a href="https://www.krce.ac.in/departments.php?department_id=4" target="_blank" class="w3-button w3-bar-item"><p>COURSES</p></a>
+    <center> <img  src="D:\WEB_PAGE\Images\1.png"style="width:50%"> </center>
+  </article>
+
+
+  <article class="w3-third">
+    <a href="https://www.krce.ac.in/placement.php" target="_blank" class="w3-button w3-bar-item"><p>EVENTS</p></a>
+    <center> <img  src="D:\WEB_PAGE\Images\2.jpg"style="width:50%"> </center>
+
+
+  </article>
+  <article class="w3-third">
+    <a href="https://www.krce.ac.in/management.php" target="_blank" class="w3-button w3-bar-item"><p>UPDATES</p></a>
+
+    <center> <img  src="D:\WEB_PAGE\Images\3.jpg"style="width:50%"> </center>
+  </article>
+
+
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-github"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="https://www.krce.ac.in/" target="_blank">www.krce.ac.in</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
+
